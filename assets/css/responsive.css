@@ -401,6 +401,43 @@ textarea{
    height: 380px;
 }
 
+.product-action .auction-badge { 
+   padding: 0.2em .5em; 
+}
+.shop-cart img {
+   max-width: 15px;
+}
+.shop-cart { 
+   width: 1.7em;
+   height: 1.7em; 
+}
+.product-action { 
+   padding: .5em;
+}
+.product-text h4 { 
+   font-size: 15px;
+}
+.product-text p {
+   font-size: 13px; 
+   line-height: normal;
+}
+.ratings ul li i {
+   font-size: 10px;
+}
+.ratings .gap-2 {
+   gap: .1rem !important;
+}
+.ratings span.fw-semibold {
+   font-size: 11px;
+}
+.product-text h3 {
+   font-size: 15px;  
+}
+
+
+
+
+
 
 
 

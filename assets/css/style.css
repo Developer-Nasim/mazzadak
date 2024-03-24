@@ -582,6 +582,7 @@ footer,
 	box-shadow: 0 5px 5px 0 #00000017;
 	display: grid;
 	place-content: center;
+   background: #fff;
 }
 .shop-cart img {
    max-width: 20px;
@@ -828,5 +829,14 @@ footer,
 .app_stores a img {
    margin: 0;
    max-width: 150px;
+}
+.copyrightText {
+   text-align: center;
+   margin-top: 50px;
+}
+
+.copyrightText p {
+   margin: 0;
+   opacity: .6;
 }
 /* FOOTER AREA end */
