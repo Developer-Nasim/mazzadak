@@ -189,6 +189,20 @@ textarea{
 .header-action .bar-icon{
    margin: 0;
 }
+.testimonial-single-item p{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+.testimonial-single-item { 
+   height: auto;  
+   padding: 25px 20px;
+}
+
+
+
+
+
 }
  
 /*========== SMALL MOBILE : SMALLER THEN 767PX ==========*/
@@ -450,6 +464,23 @@ textarea{
 .change_lang .show_lang{
    padding: 5px;
 }
+.testimonial-single-item p{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+.testimonial-single-item { 
+   height: auto;  
+   padding: 20px 15px;
+}
+.testimonial-single-item > img {
+   width: 90px;
+   height: 90px; 
+}
+.testimonial-single-item h5 { 
+   font-size: 13px;
+}
+
 
 
 
