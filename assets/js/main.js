@@ -17,6 +17,28 @@ function MobileMenu() {
 MobileMenu()
 
 
+//========== Language MENU ==========>	
+function LanguageMenu() {
+	let LangItems = document.querySelectorAll('.change_lang ul li')
+	let DisplayLang = document.querySelector('.change_lang .show_lang')
+
+	if (LangItems.length > 0) { 
+		LangItems.forEach(Item => {
+			Item.addEventListener('click', (e) => {
+				let target = e.target
+				if (target.outerText === "AR") {
+					document.querySelector('html').setAttribute('data-rtl','true')
+				}else{
+					document.querySelector('html').setAttribute('data-rtl','false')
+				}
+				DisplayLang.querySelector('span').src = target.outerText
+				DisplayLang.querySelector('img').src = target.querySelector('img').src
+			})
+		});
+	}
+}
+LanguageMenu()
+
 
 //========== STICKY HEADER, BACK TO TOP ==========>	
 	const headerAreas = document.querySelectorAll('.header-area');

@@ -186,6 +186,9 @@ textarea{
 .bar-icon{
    display: block;
 }
+.header-action .bar-icon{
+   margin: 0;
+}
 }
  
 /*========== SMALL MOBILE : SMALLER THEN 767PX ==========*/
@@ -434,9 +437,19 @@ textarea{
    font-size: 15px;  
 }
 
-
-
-
+.header-action .bar-icon{
+   margin: 0;
+}
+.header-action {
+   gap: 10px ! IMPORTANT;
+   padding-left: 10px;
+}
+.change_lang .show_lang span{
+   display: none;
+}
+.change_lang .show_lang{
+   padding: 5px;
+}
 
 
 
