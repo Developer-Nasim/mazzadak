@@ -36,7 +36,7 @@ function LanguageMenu() {
 		});
 	}
 }
-LanguageMenu()
+// LanguageMenu()
 
 
 //========== STICKY HEADER, BACK TO TOP ==========>	
