@@ -1,19 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-rtl="true">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--======== Title & Favicon ========-->
-    <title>MAZZADAK | Order Summary</title>
+    <title>MAZZADAK | Thank You</title>
     <!-- <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon"> -->
     <!--======== CSS ========-->
-    <link href="./assets/css/fontawesome.min.css" rel="stylesheet">
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./assets/css/spacing.min.css" rel="stylesheet">
-    <link href="./assets/css/style.css" rel="stylesheet">
-    <link href="./assets/css/responsive.css" rel="stylesheet">  
+    <link href="../assets/css/fontawesome.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/spacing.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/responsive.css" rel="stylesheet">  
 </head>
 <body>
 
@@ -23,7 +23,7 @@
             <div class="row align-items-center">
                 <div class="col-md-3 col-4">
                     <div class="logo">
-                        <a href="#"><img src="./assets/img/logo/logo.png" alt=""></a>
+                        <a href="#"><img src="../assets/img/logo/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-9 col-8">
@@ -40,17 +40,17 @@
                         </div>
                         <div class="header-action d-flex align-items-center gap-3 pl-50">
                             <a href="#" class="action-user">
-                                <img src="./assets/img/icons/user.png" alt="">
+                                <img src="../assets/img/icons/user.png" alt="">
                             </a>
                             <a href="#" class="action-cart position-relative">
                                 <span>0</span>
-                                <img src="./assets/img/icons/bag.png" alt="">
+                                <img src="../assets/img/icons/bag.png" alt="">
                             </a>
                             <div class="change_lang">
-                                <div class="show_lang"><img src="assets/img/icons/eng.png" alt=""> <span>EN</span></div>
+                                <div class="show_lang"><img src="../assets/img/icons/eng.png" alt=""> <span>EN</span></div>
                                 <ul>
-                                    <li><a href="#"><img src="assets/img/icons/eng.png" alt=""> EN</a></li>
-                                    <li><a href="./arabic/checkout-summary.html"><img src="assets/img/icons/ara.png" alt=""> AR</a></li>
+                                    <li><a href="#"><img src="../assets/img/icons/eng.png" alt=""> EN</a></li>
+                                    <li><a href="../thank-you.html"><img src="../assets/img/icons/ara.png" alt=""> AR</a></li>
                                 </ul>
                             </div>
                             <a class="bar-icon siteBar-btn" href="#"><span></span></a>
@@ -90,7 +90,8 @@
                             <a class="breadcrumb-item" href="./index.html">Home</a>
                             <a class="breadcrumb-item" href="./cart.html">My Cart</a>
                             <a class="breadcrumb-item" href="./checkout-2.html">Checkout</a>
-                            <span class="breadcrumb-item active">Order Summary</span>
+                            <a class="breadcrumb-item" href="./checkout-summary.html">Order Summary</a>
+                            <span class="breadcrumb-item active">Successfully Ordered</span>
                         </nav>
                     </div>
                 </div>
@@ -99,55 +100,15 @@
         <!-- Breadcrumb end -->
 
         <!-- ORDER DETAILS AREA -->
-        <section class="order-details-area pb-80 pb-xs-60">
+        <section class="thankyou-area pb-80 pb-xs-60">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7 col-md-10 mx-auto">
-                        <div class="order-details">
-
-                            <div class="cart-item d-md-flex gap-4 mb-30">
-                                <div class="cart-thumb">
-                                    <img src="./assets/img//shop/product-3.png" alt="">
-                                </div>
-                                <div class="cart-content flex-1">
-                                    <h4 class="mb-10"><a href="#">Schockemöhle Air Flow Champion Fetlock</a></h4>
-                                    <h6 class="mb-10">Brand : Schockemöhle</h6>
-                                    <div class="cart-qty">
-                                        <ul class="d-flex gap-3">
-                                            <li><strong>Color :</strong> Navy Blue</li>
-                                            <li><strong>Quantity :</strong> 1</li>
-                                            <li><strong>Size :</strong> 145</li>
-                                        </ul>
-                                    </div>
-                                    <h3 class="text-theme mt-10 mb-10">SAR 199,99</h3>
-                                    <div class="cart-delivery d-flex align-items-center gap-3">
-                                        <img src="./assets/img/icons/cube.svg" alt="">
-                                        Delivery by : <span class="text-theme">26 Mar - 28 Mar</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="delivery-des pb-15">
-                                <h5>Delivering to</h5>
-                                <h6 class="mb-0 fw-medium">Hacen Business</h6>
-                                <p class="mb-0">Al Ashriah St, Al Badi, 32414</p>
-                                <h6 class="mb-0 fw-medium">Saudi Arabia</h6>
-                            </div>
-                            <div class="delivery-des pt-15 pb-15">
-                                <h5>Payment</h5>
-                                <h6 class="mb-0 fw-medium">Visa card ends with <span class="text-theme fw-semibold">XXX6 8228</span></h6>
-                            </div>
-
-                            <ul class="order-list-text d-flex flex-column gap-3 mt-20">
-                                <li><span>Subtotal</span> <span class="text-theme fw-semibold">SAR 199,99</span></li>
-                                <li><span>Shipping fee</span> <span class="text-theme fw-semibold">SAR 0,00</span></li>
-                            </ul>
-                            <ul class="total-text d-flex flex-column gap-3 pt-20 mt-20">
-                                <li><span>Total Amount</span> <span class="text-theme fw-semibold">SAR 199,99</span></li>
-                            </ul>
-                        </div>
-                        <div class="mt-30 mt-xs-10">
-                            <a href="./thank-you.html" class="site-btn">Order Now</a>
+                    <div class="col-xl-4 col-lg-5 col-md-6 mx-auto">
+                        <div class="section-content text-center">
+                            <img src="../assets/img/thankyou/img.png" alt="">
+                            <h4>Your Order is Confirmed!</h4>
+                            <p class="mb-20">We'll send you a shipping confirmation email as soon as your order ships.</p>
+                            <a href="#" class="site-btn">Check Status</a>
                         </div>
                     </div>
                 </div>
@@ -163,7 +124,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="widget-logo">
-                        <img src="./assets/img/logo/logo-2.png" alt="">
+                        <img src="../assets/img/logo/logo-2.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-2 col-5">
@@ -193,36 +154,36 @@
                 <div class="col-md-4">
                     <div class="widget-contact">
                         <div class="social_medias">
-                            <a href="#"><img src="assets/img/icons/fb.png" alt=""></a>
-                            <a href="#"><img src="assets/img/icons/insta.png" alt=""></a>
-                            <a href="#"><img src="assets/img/icons/yt.png" alt=""></a> 
-                            <a href="#"><img src="assets/img/icons/lkd.png" alt=""></a>
-                            <a href="#"><img src="assets/img/icons/x.png" alt=""></a>
-                            <a href="#"><img src="assets/img/icons/tkt.png" alt=""></a>
+                            <a href="#"><img src="../assets/img/icons/fb.png" alt=""></a>
+                            <a href="#"><img src="../assets/img/icons/insta.png" alt=""></a>
+                            <a href="#"><img src="../assets/img/icons/yt.png" alt=""></a> 
+                            <a href="#"><img src="../assets/img/icons/lkd.png" alt=""></a>
+                            <a href="#"><img src="../assets/img/icons/x.png" alt=""></a>
+                            <a href="#"><img src="../assets/img/icons/tkt.png" alt=""></a>
                         </div>
                         <ul class="d-flex gap-4 gap-md-2 flex-column">
                             <li class="d-flex gap-3 align-items-start">
-                                <img src="./assets/img/icons/map.svg" alt="">
+                                <img src="../assets/img/icons/map.svg" alt="">
                                 <div class="flex-1">
                                     <p>KSAA, Riyadh, Ishbiliyah, Imam Abdullah Ibn Saud Rd</p>
                                 </div>
                             </li>
                             <li class="d-flex gap-3 align-items-start">
-                                <img src="./assets/img/icons/email.svg" alt="">
+                                <img src="../assets/img/icons/email.svg" alt="">
                                 <div class="flex-1">
                                     <p>Contact@Mazzadak.com <span>Email us</span></p>
                                 </div>
                             </li>
                             <li class="d-flex gap-3 align-items-start">
-                                <img src="./assets/img/icons/phone.svg" alt="">
+                                <img src="../assets/img/icons/phone.svg" alt="">
                                 <div class="flex-1">
                                     <p>9660101010101+ <span>Call us</span></p>
                                 </div>
                             </li>
                         </ul>
                         <div class="app_stores">
-                            <a href="#"><img src="assets/img/logo/appstore.png" alt=""></a>
-                            <a href="#"><img src="assets/img/logo/playstore.png" alt=""></a>
+                            <a href="#"><img src="../assets/img/logo/appstore.png" alt=""></a>
+                            <a href="#"><img src="../assets/img/logo/playstore.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -242,7 +203,7 @@
     <!--======== SCROLL UP// ========-->
 
     <!-- JS HERE -->
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
